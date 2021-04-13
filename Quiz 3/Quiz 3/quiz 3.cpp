@@ -40,7 +40,9 @@ int main() {//prefaces user to answer further promts
 		cout << endl; 
 	}
 
-	average = (float(student1 + student2 + student3)) / 3; //computes the average from given values 
+	// #ImplicitConversionThrowsErrors
+	//average = (student1 + student2 + student3) / 3.0; 
+	average = float(student1 + student2 + student3) / 3; //computes the average from given values 
 	system("pause");
 	cout << endl;
 	cout << "Here is the average: " << average<< endl <<endl;
