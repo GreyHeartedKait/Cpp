@@ -26,11 +26,13 @@ int main() {
 	cout << endl
 		<< "How old is [" + name + "]? \n";
 	cin>> age;
+	cin.ignore();
 	cout << endl;
 	
 	cout<< "Name a city: \n";
-	getline(cin, city); //Reader starts reading the line directly after the age variable. To counteract that,
+	//getline(cin, city); //Reader starts reading the line directly after the age variable. To counteract that,
 	//this line "wastes" it, 
+
 	getline(cin, city);
 	cout << endl
 		<< "Name a college: \n";
