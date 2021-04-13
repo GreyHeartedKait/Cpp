@@ -10,6 +10,7 @@
 */
 
 #include <iostream> //preprocessor directive, allows program to use the input output stream
+#include <string>
 using namespace std; //This line tells the program which namespace to use, 
 //which allows one to use the named entites within the namespace "standard"
 
