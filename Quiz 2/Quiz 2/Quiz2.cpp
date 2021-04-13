@@ -33,4 +33,5 @@ int main() /*beginning of function main*/{//the start of the function body
 	date = "12th of April"; //string variable
 
 	printer(name, date); //function call
+	system("pause");
 }//end of function main()
