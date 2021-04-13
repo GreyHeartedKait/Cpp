@@ -30,8 +30,7 @@ int main() {
 	* var foo: used in while loop to continue or discontinue calculating. Set to 1 to start the first round of the while loop.
 	*/
 	float principal, rate;
-	int t, foo;
-	foo = 1;
+	int t, foo=1;
 
 	cout << "Hello user. Welcome to the investment calculator.\n\n";
 
