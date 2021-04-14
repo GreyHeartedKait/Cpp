@@ -12,5 +12,6 @@ using namespace std;
 int main() {
 	cout << "Approx. # of customers who purchased 1+ energy drinks per week: " << round(16500 * .15)
 		<< "\nApprox. # of customers who prefer citrus energy drinks: " << round(.58 * 16500);
-		
+
+	system("pause");
 }

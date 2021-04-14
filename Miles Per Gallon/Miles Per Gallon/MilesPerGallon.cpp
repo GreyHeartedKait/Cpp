@@ -18,4 +18,5 @@ float mPG(int miles, int gals){
 
 int main() {
 	cout << mPG(375, 15);
+	system("pause");
 }

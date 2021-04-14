@@ -23,5 +23,7 @@ int main() {
 		<< stock * price * commission
 		<< endl
 		<< "Total paid: "
-		<< stock * price * commission + stock * price; 
+		<< stock * price * commission + stock * price
+		<<endl;
+	system("pause");
 }

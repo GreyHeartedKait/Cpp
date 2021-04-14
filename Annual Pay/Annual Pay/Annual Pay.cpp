@@ -14,4 +14,5 @@ using namespace std;
 int main() {
 	float payAmount = 2200, payPeriods = 26, annualPay=payAmount*payPeriods;
 	cout << annualPay;
+	system("pause");
 }

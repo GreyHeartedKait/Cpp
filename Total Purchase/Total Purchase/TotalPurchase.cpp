@@ -34,4 +34,5 @@ int main() {
 		<< "\nSubtotal: $" << subtotal
 		<< "\nSales tax: $" << subtotal * sales_Tax
 		<< "\nTotal: $" << subtotal * sales_Tax + subtotal; 
+	system("pause");
 }		
