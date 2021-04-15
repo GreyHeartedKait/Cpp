@@ -15,12 +15,19 @@ int main() {
 	string password = "HelloFromTheOtherSide", input;
 	cout << "Hello user. Welcome to security gate.\n\n"
 		<< "Please enter you password: ";
-	cin >> input; 
-	if (input == password)
-		cout << "Access granted. Welcome in!\n";
 
-	else
-		cout << "Access denied. Try again.\n";
+	cin >> input; 
+	if (input == password) {
+		cout << "Congratulations!Access granted!\n"
+			<< "You will be directed to the homepage shortly...\n";
+	}
+	else {
+		cout<< "Sorry, wrong code.\n"
+
+			<< "Access denied.\n"
+
+			<< "Please try again.\n";
+	}
 
 	system("pause");
 }
