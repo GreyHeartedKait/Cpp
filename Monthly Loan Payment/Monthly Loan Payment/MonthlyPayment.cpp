@@ -1,9 +1,20 @@
+/*
+* Author: Kaitlyn Bui
+* Date: 04.15.2021
+* Program: Monthly Payment
+* Purpose: Calculate and display loan details
+*/
 #include <iostream>
 #include <iomanip>
 #include <cmath>
 
 using namespace std;
-
+/*
+* Purpose: Calculates monthly loan payment
+* var int n: number of payments
+* var double rate: monthly interest rate
+* var double l: loan amount
+*/
 double payment(int n, double rate, double l) {
 	return l * (rate * pow((1 + rate), n)) / (pow((1 + rate), n) - 1);
 }
@@ -16,13 +27,17 @@ int main() {
 
 	cout << "Hello user! Welcome to the loan calculator. This program will calculate and display details for a loan.\n"
 		<< "Please enter the following values: \n\n"
+
 		<< "Loan Amount: ";
 	cin >> loan;
+
 	cout << "Monthly Interest (%): ";
 	cin >> monthlyInterest;
 	monthlyInterest /= 100;
+
 	cout << "# of payments: ";
 	cin >> numPay;
+
 	monthlyPayment = payment(numPay, monthlyInterest, loan);
 
 	cout << endl << left << setw(25) << "Loan amount:" << "$" << right << setw(10) << loan
