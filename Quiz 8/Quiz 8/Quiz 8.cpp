@@ -21,11 +21,11 @@ int main(){
 	double weight, height, BMI;
 	cout << "Hello user, welcome to the BMI calculator. Here, you will be able to calculate\n"
 		<< "your BMI and see your weight range."
-		<< "\n\nPlease enter your weight: ";
+		<< "\n\nPlease enter your weight(LBS): ";
 
 	cin >> weight;
 
-	cout << "Please enter your height: ";
+	cout << "Please enter your height(Inches): ";
 	cin >> height;
 	BMI = bmiCalc(weight, height);
 
