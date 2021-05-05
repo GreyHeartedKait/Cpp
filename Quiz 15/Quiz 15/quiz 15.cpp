@@ -18,5 +18,7 @@ int main() {
 		cout << "Friend #" << i << ": " << foo << endl;
 	}
 
+	iFile.close(); 
+
 	system("pause");
 }
