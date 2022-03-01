@@ -1,0 +1,10 @@
+Simple 		423456 100.25
+Checking 	881023 999.99
+Simple 		435920 200.00
+Advanced 	129999 405.04
+Credit 		123321 -1000.00
+Advanced 	122333 1000.00
+Credit 		576452 -8000.88
+Checking 	881234 5000.00
+Credit 		598763 -10.1
+Credit 		578824 -2000.00

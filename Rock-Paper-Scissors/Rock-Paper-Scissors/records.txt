@@ -1,0 +1,5 @@
+
+rock 0 1 0
+paper 0 0 1
+kaitlyn 0 1 0
+Kaitydidlyn 0 0 1
